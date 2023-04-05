@@ -13,14 +13,13 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('san_bay', function (Blueprint $table) {
+        Schema::create('dat_ve', function (Blueprint $table) {
             $table->id();
-            $table->string('ten_sb');
-            $table->string('dia_chi_sb');
-            $table->string('anh_sb')->nullable();
-            $table->string('mo_ta_sb')->nullable();
-            $table->tinyInteger('loai_sb')->default(0);  // sân bay đi (0) or sân bay đến (1)
-            $table->tinyInteger('trash_sb')->default(0);
+            $table->string('ma_ve');
+            $table->integer('ve_id');
+            $table->integer('kh_id');
+            $table->string('mo_ta_dat_ve');
+            $table->tinyInteger('trash_dat_ve')->default(0);
             $table->timestamps();
         });
     }
@@ -32,6 +31,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('san_bay');
+        Schema::dropIfExists('dat_ve');
     }
 };
