@@ -15,7 +15,6 @@ return new class extends Migration
     {
         Schema::create('san_bay', function (Blueprint $table) {
             $table->id();
-            $table->id();
             $table->string('ten_sb');
             $table->string('dia_chi_sb');
             $table->string('anh_sb')->nullable();
