@@ -1,6 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="en">
-    
+
 <!-- Mirrored from themehut.co/html/geair/blog-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 16 Jul 2022 19:41:40 GMT -->
 <head>
         <meta charset="utf-8">
@@ -283,7 +283,7 @@
                             <div class="col-xl-3 col-lg-4 col-md-6">
                                 <div class="footer-widget">
                                     <div class="footer-logo">
-                                        <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                                        <a href="index"><img src="assets/img/logo/logo.png" alt=""></a>
                                     </div>
                                     <div class="footer-content">
                                         <p>Online to make your journey even more memorable access or meet</p>
@@ -303,15 +303,15 @@
                                     </div>
                                     <div class="fw-link">
                                         <ul>
-                                            <li><a href="about.html">About us</a></li>
-                                            <li><a href="contact.html">Travel alerts</a></li>
-                                            <li><a href="contact.html">Awards</a></li>
-                                            <li><a href="contact.html">Qatarisation</a></li>
-                                            <li><a href="contact.html">Careers</a></li>
-                                            <li><a href="contact.html">Beyond</a></li>
-                                            <li><a href="contact.html">Press release</a></li>
-                                            <li><a href="contact.html">Airways Cargo</a></li>
-                                            <li><a href="contact.html">Sponsorship</a></li>
+                                            <li><a href="about">About us</a></li>
+                                            <li><a href="contact">Travel alerts</a></li>
+                                            <li><a href="contact">Awards</a></li>
+                                            <li><a href="contact">Qatarisation</a></li>
+                                            <li><a href="contact">Careers</a></li>
+                                            <li><a href="contact">Beyond</a></li>
+                                            <li><a href="contact">Press release</a></li>
+                                            <li><a href="contact">Airways Cargo</a></li>
+                                            <li><a href="contact">Sponsorship</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -323,11 +323,11 @@
                                     </div>
                                     <div class="fw-link">
                                         <ul>
-                                            <li><a href="booking-list.html">Airline fees</a></li>
-                                            <li><a href="booking-list.html">Airline guides</a></li>
-                                            <li><a href="booking-list.html">Airport guides</a></li>
-                                            <li><a href="booking-list.html">Low fare tips</a></li>
-                                            <li><a href="booking-list.html">Flights</a></li>
+                                            <li><a href="booking-list">Airline fees</a></li>
+                                            <li><a href="booking-list">Airline guides</a></li>
+                                            <li><a href="booking-list">Airport guides</a></li>
+                                            <li><a href="booking-list">Low fare tips</a></li>
+                                            <li><a href="booking-list">Flights</a></li>
                                         </ul>
                                     </div>
                                 </div>

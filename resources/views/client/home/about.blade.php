@@ -1,6 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="en">
-    
+
 <!-- Mirrored from themehut.co/html/geair/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 16 Jul 2022 19:41:34 GMT -->
 <head>
         <meta charset="utf-8">
@@ -49,7 +49,7 @@
 
         <!-- header-area -->
         <header>
-            @include('client.block.header') 
+            @include('client.block.header')
         </header>
         <!-- header-area-end -->
 

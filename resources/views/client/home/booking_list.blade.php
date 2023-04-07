@@ -1,6 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="">
-    
+
 <!-- Mirrored from themehut.co/html/geair/booking-list.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 16 Jul 2022 19:41:35 GMT -->
 <head>
         <meta charset="utf-8">
@@ -121,13 +121,21 @@
                                                     <form action="#" class="booking-form">
                                                         <ul>
                                                             <li>
-                                                                <div class="form-grp">
-                                                                    <input type="text" placeholder="From">
+                                                                <div class="form-grp select">
+                                                                    <label for="select">nơi đi</label>
+                                                                    <select class="form-select">
+                                                                        <option>
+                                                                            tỉnh/ thành phố
+                                                                        </option>
+                                                                    </select>
                                                                 </div>
                                                             </li>
                                                             <li>
-                                                                <div class="form-grp">
-                                                                    <input type="text" placeholder="To">
+                                                                <div class="form-grp select">
+                                                                    <label for="select">nơi đến</label>
+                                                                    <select class="form-select">
+                                                                        <option>tỉnh/ thành phố</option>
+                                                                    </select>
                                                                     <button class="exchange-icon"><i
                                                                             class="flaticon-exchange-1"></i></button>
                                                                 </div>
@@ -192,14 +200,23 @@
                                                     <form action="#" class="booking-form">
                                                         <ul>
                                                             <li>
-                                                                <div class="form-grp">
-                                                                    <input type="text" placeholder="From">
+                                                                <div class="form-grp select">
+                                                                    <label for="select">nơi đi</label>
+                                                                    <select class="form-select">
+                                                                        <option>
+                                                                            tỉnh/ thành phố
+                                                                        </option>
+                                                                    </select>
                                                                 </div>
                                                             </li>
                                                             <li>
-                                                                <div class="form-grp">
-                                                                    <input type="text" placeholder="To">
-                                                                    <button class="exchange-icon"><i class="flaticon-exchange-1"></i></button>
+                                                                <div class="form-grp select">
+                                                                    <label for="select">nơi đến</label>
+                                                                    <select class="form-select">
+                                                                        <option>tỉnh/ thành phố</option>
+                                                                    </select>
+                                                                    <button class="exchange-icon"><i
+                                                                            class="flaticon-exchange-1"></i></button>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -259,14 +276,23 @@
                                                     <form action="#" class="booking-form">
                                                         <ul>
                                                             <li>
-                                                                <div class="form-grp">
-                                                                    <input type="text" placeholder="From">
+                                                                <div class="form-grp select">
+                                                                    <label for="select">nơi đi</label>
+                                                                    <select class="form-select">
+                                                                        <option>
+                                                                            tỉnh/ thành phố
+                                                                        </option>
+                                                                    </select>
                                                                 </div>
                                                             </li>
                                                             <li>
-                                                                <div class="form-grp">
-                                                                    <input type="text" placeholder="To">
-                                                                    <button class="exchange-icon"><i class="flaticon-exchange-1"></i></button>
+                                                                <div class="form-grp select">
+                                                                    <label for="select">nơi đến</label>
+                                                                    <select class="form-select">
+                                                                        <option>tỉnh/ thành phố</option>
+                                                                    </select>
+                                                                    <button class="exchange-icon"><i
+                                                                            class="flaticon-exchange-1"></i></button>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -326,14 +352,23 @@
                                                     <form action="#" class="booking-form">
                                                         <ul>
                                                             <li>
-                                                                <div class="form-grp">
-                                                                    <input type="text" placeholder="From">
+                                                                <div class="form-grp select">
+                                                                    <label for="select">nơi đi</label>
+                                                                    <select class="form-select">
+                                                                        <option>
+                                                                            tỉnh/ thành phố
+                                                                        </option>
+                                                                    </select>
                                                                 </div>
                                                             </li>
                                                             <li>
-                                                                <div class="form-grp">
-                                                                    <input type="text" placeholder="To">
-                                                                    <button class="exchange-icon"><i class="flaticon-exchange-1"></i></button>
+                                                                <div class="form-grp select">
+                                                                    <label for="select">nơi đến</label>
+                                                                    <select class="form-select">
+                                                                        <option>tỉnh/ thành phố</option>
+                                                                    </select>
+                                                                    <button class="exchange-icon"><i
+                                                                            class="flaticon-exchange-1"></i></button>
                                                                 </div>
                                                             </li>
                                                             <li>

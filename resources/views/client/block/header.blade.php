@@ -36,18 +36,18 @@ $objUser = \Illuminate\Support\Facades\Auth::user();
                         </div>
                         <div class="navbar-wrap main-menu d-none d-lg-flex">
                             <ul class="navigation">
-                                <li class="active"><a href="{{ route('client-index') }}">Home</a></li>
-                                <li><a href="{{ route('about') }}">About</a></li>
-                                <li class="menu-item-has-children"><a href="">Pages</a>
+                                <li class="active"><a href="{{ route('client-index') }}">Trang chủ</a></li>
+                                <li><a href="{{ route('about') }}">Hỗ trợ</a></li>
+                                <li class="menu-item-has-children"><a href="">Đặt vés</a>
                                     <ul class="submenu">
-                                        <li><a href="{{ route('booking-list') }}">Booking List</a></li>
-                                        <li><a href="{{ route('booking-detail') }}">Booking Details</a></li>
+                                        <li><a href="{{ route('booking-list') }}">Đặt vé</a></li>
+                                        <li><a href="{{ route('booking-detail') }}">Thanh Toán</a></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item-has-children"><a href="">Blog</a>
                                     <ul class="submenu">
-                                        <li><a href="{{ route('blog') }}">Our Blog</a></li>
-                                        <li><a href="{{ route('blog-detail') }}">Blog Details</a></li>
+                                        <li><a href="{{ route('blog') }}">Tin tức</a></li>
+                                        <li><a href="{{ route('blog-detail') }}">Về chúng tôi</a></li>
                                     </ul>
                                 </li>
                                 @if (Auth::check())
@@ -60,15 +60,15 @@ $objUser = \Illuminate\Support\Facades\Auth::user();
 
                                 @if (!isset($objUser))
                                     <li class="header-btn "><a href="{{ route('route_SignIn') }}"
-                                            class="btn">Register</a></li>
+                                            class="btn">Đăng ký</a></li>
                                     <li class="header-btn sign-in"><a href="{{ route('login') }}"
-                                            class="btn">LoginIn</a>
+                                            class="btn">Đăng nhập</a>
                                     </li>
                                 @else
                                     <li class="header-btn"><a href="{{ route('route_SignIn') }}" class="btn">
                                             {{ $objUser->name }}</a></li>
                                     <li class="header-btn sign-in"><a href="{{ route('route_logout') }}"
-                                            class="btn">Logout</a>
+                                            class="btn">Đăng xuất</a>
                                     </li>
 
                                     @if ($objUser->role_id == 2)
