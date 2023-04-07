@@ -38,7 +38,7 @@ $objUser = \Illuminate\Support\Facades\Auth::user();
                             <ul class="navigation">
                                 <li class="active"><a href="{{ route('client-index') }}">Trang chủ</a></li>
                                 <li><a href="{{ route('about') }}">Hỗ trợ</a></li>
-                                <li class="menu-item-has-children"><a href="">Đặt vés</a>
+                                <li class="menu-item-has-children"><a href="">Đặt vé</a>
                                     <ul class="submenu">
                                         <li><a href="{{ route('booking-list') }}">Đặt vé</a></li>
                                         <li><a href="{{ route('booking-detail') }}">Thanh Toán</a></li>
